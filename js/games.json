@@ -1,0 +1,58 @@
+[
+    {
+        "name" : "Skyrim",
+        "category" : "PC",
+        "price" : "549.25",
+        "imgSrc" : "./media/img01.jpg"
+    },
+    {
+        "name" : "Fallout 04",
+        "category" : "PC",
+        "price" : "352.00",
+        "imgSrc" : "./media/img02.jpg"
+    },
+    {
+        "name" : "Starfield",
+        "category" : "PC",
+        "price" : "432.00",
+        "imgSrc" : "./media/img06.jpg"
+    },
+    {
+        "name" : "Farcry 5",
+        "category" : "PC",
+        "price" : "566.00",
+        "imgSrc" : "./media/img03.jpg"
+    },
+    {
+        "name" : "Farcry 6",
+        "category" : "PC",
+        "price" : "467",
+        "imgSrc" : "./media/img04.jpg"
+    },
+    {
+        "name" : "Machinarium",
+        "category" : "PC",
+        "price" : "342.00",
+        "imgSrc" : "./media/img05.jpg"
+    },
+    {
+        "name" : "prototype",
+        "category" : "PC",
+        "price" : "452.00",
+        "imgSrc" : "./media/img07.jpg"
+    },
+    {
+        "name" : "Assasin´s Creed-Valhalla",
+        "category" : "PC",
+        "price" : "899.00",
+        "imgSrc" : "./media/img08.jpg"
+    },
+    {
+        "name" : "DayLight 2",
+        "category" : "PC",
+        "price" : "342.00",
+        "imgSrc" : "./media/img09.jpg"
+    }
+    
+    
+]
