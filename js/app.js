@@ -58,6 +58,10 @@ function loadJSON(){
         });
         productList.innerHTML = html;
     })
+    .catch(error => {
+        alert(`utilizar live server o servidor local`);
+        // Para que la API fecth pueda andar, se necesita un servidor local o el live server, o el sitio web hospedado en algun lugar.
+    })
 }
 
 
