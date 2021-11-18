@@ -1,3 +1,9 @@
+
+
+
+
+
+
 const cartContainer = document.querySelector('.cart-container');
 const productList = document.querySelector('.product-list');
 const cartList = document.querySelector('.cart-list');
@@ -60,7 +66,7 @@ function loadJSON(){
     })
     .catch(error => {
         alert(`utilizar live server o servidor local`);
-        // Para que la API fecth pueda andar, se necesita un servidor local o el live server, o el sitio web hospedado en algun lugar.
+        // Para que la API fetch pueda andar, se necesita un servidor local o el live server, o el sitio web hospedado en algun lugar.
     })
 }
 
@@ -162,3 +168,26 @@ function deleteProduct(e){
     localStorage.setItem('products', JSON.stringify(updatedProducts));
     updateCartInfo();
 }
+
+//jquery 
+
+$(document).ready(function () {
+  
+    //$('.textoPrincipal').html('Las mejores promociones estan acá')
+    $('.banner-content p:first').html('Las mejores promociones estan acá')
+    
+
+    $('#buttonPrincipal').click(function(){
+        $('.banner-content').prepend('<p id="color01">¡Farcry 4, fracry 5, com precios muy bajos! </p>')
+        $('#color01').css({color: 'gray'});
+        $("#color01").fadeOut("slow", function(){
+            $('#color01').fadeIn(1000)
+        })
+    })
+    $('#load').slideUp(0, function(){
+        $('#load').slideDown(2000)
+    })
+     
+    
+})
+
