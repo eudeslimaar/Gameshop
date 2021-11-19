@@ -187,7 +187,9 @@ $(document).ready(function () {
     $('#load').slideUp(0, function(){
         $('#load').slideDown(2000)
     })
-     
-    
+    $('.navbar-brand').fadeOut(0, function(){
+        $('.navbar-brand').fadeIn(2000)
+    })
+
 })
 
