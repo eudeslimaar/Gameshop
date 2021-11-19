@@ -173,8 +173,8 @@ function deleteProduct(e){
 
 $(document).ready(function () {
   
-    //$('.textoPrincipal').html('Las mejores promociones estan acá')
-    $('.banner-content p:first').html('Las mejores promociones estan acá')
+    $('.textoPrincipal').html('Tenemos los mejores juegos, diferentes mundos con diferentes temas y estilos de juego. ¡Elige tu aventura!')
+    //$('.banner-content p:first').html('Las mejores promociones estan acá')
     
 
     $('#buttonPrincipal').click(function(){
