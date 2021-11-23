@@ -172,6 +172,22 @@ function deleteProduct(e){
 //jquery 
 
 $(document).ready(function () {
+
+    var request = $.ajax({
+        url: "https://swapi.dev/api/people/1/",
+        method: "GET"
+    });
+    request.done(function( data ) {
+        console.log(data.name);
+        const final = data.name
+        $('#nombre').text('Hola, '+ final)
+        $('#nombre').css({'text-align': 'end'})
+    })
+      
+    request.fail(function( error ) {
+        console.log( 'Error: ' , error );
+    });
+    
   
     $('.textoPrincipal').html('Tenemos los mejores juegos, diferentes mundos con diferentes temas y estilos de juego. ¡Elige tu aventura!')
     //$('.banner-content p:first').html('Las mejores promociones estan acá')

@@ -75,7 +75,7 @@ header .container{
     width: 100%;
     padding: 1.5rem 1rem!important;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     align-items: center;
     padding: 1.5rem 0;
     background: var(--color01);
@@ -146,6 +146,7 @@ header .container{
     justify-self: flex-end;
     padding-right: 8px;
 }
+
 #cart-btn{
     border: none;
     font-size: 1.5rem;
