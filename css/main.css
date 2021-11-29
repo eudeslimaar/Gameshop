@@ -33,10 +33,10 @@ a{
     text-decoration: none;
     color: #000;
 }
-.container{
+.container {
     max-width: 1280px;
-    margin: 0 auto;
     padding: 0 1.5rem;
+    margin: 0 auto;
 }
 #load{
     display:none;
@@ -50,7 +50,7 @@ a{
     opacity: 0.7;
 }
 h1{
-    color: var(--color02);
+    color: var(--color01);
 }
 
 
@@ -145,7 +145,9 @@ header .container{
 .cart{
     justify-self: flex-end;
     padding-right: 8px;
+    
 }
+
 
 #cart-btn{
     border: none;
@@ -175,10 +177,10 @@ header .container{
 }
 .cart-container{
     position: absolute;
-    overflow-y: scroll;
+    overflow-y:scroll;
     background: #fff;
     width: 100%;
-    height: auto;
+    max-height: 200px;
     top: 100%;
     left: 0;
     right: 0;
@@ -257,11 +259,12 @@ header .container{
     font-weight: 500;
 }
 .cart-buy{
+    
     color:var(--color01);
     border:1px solid var(--color01);
     border-radius: 5px;
     padding: 1rem  1.8rem;
-    margin-left: 4.5rem;
+    margin-left: 10rem;
     background-color: var(--color02);
     
 
@@ -269,11 +272,15 @@ header .container{
 
 
 /* banner  */
-.banner{
+.container  .banner {
+    padding: 0 3rem;
     flex: 1;
     padding-top: 6rem;
     text-align: center;
     background-size: cover;
+    background-image: url(../media/01.jpg);
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
 }
 .banner > div{
     margin: 2rem 0;
@@ -282,6 +289,9 @@ header .container{
     font-weight: 500;
     font-size: 1.15rem;
     opacity: 0.45;
+}
+.textoPrincipal{
+    color: var(--color01);
 }
 .btns{
     margin: 1.5rem 0;
@@ -305,12 +315,12 @@ header .container{
     -o-transition: var(--trans);
 }
 .btns .btn:last-child{
-    color: var(--color02);
+    color: var(--color01);
     background: transparent;
 }
 .btns .btn:first-child:hover{
     background: transparent;
-    color: var(--color02);
+    color: var(--color01);
 }
 .btns .btn:last-child:hover{
     background: var(--color02);
