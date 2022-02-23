@@ -4,7 +4,7 @@
 
 - **GitHub:**   [eudeslimaar](https://github.com/eudeslimaar)
 - **Linkedin:** [in/eudeslimaar/](https://www.linkedin.com/in/eudeslimaar/)
-- **Email**     - Develeper@eudeslima.com
+- **Email**     - Developer@eudeslima.com
 
 Proyecto estructurado en javascript para crear un comercio de juegos.
 
